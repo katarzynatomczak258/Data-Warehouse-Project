@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Hurtownia_Danych_AD</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>urCMyGw809+VLJuQJFicD6CSzZo=26.11.2024 12:58:5626.11.2024 12:58:56</TimeStamp>
+        <ID>
+          <String>Źródło danych- połączenie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>PTiuRfMOsUKJ1oSrWesynPikkWM=26.11.2024 16:16:5126.11.2024 13:28:57</TimeStamp>
+        <ID>
+          <String>Źródło danych- dane</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>r54GGALQxyBqZiXWYaHXsyF1Gd4=29.11.2024 16:14:0226.11.2024 13:47:43</TimeStamp>
+        <ID>
+          <String>MIEJSCE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1Sb14yOzk8gTuDeSSzBQ3WjZgpM=29.11.2024 16:15:0526.11.2024 13:47:43</TimeStamp>
+        <ID>
+          <String>CZAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U+p1iJpNvDe1xBTo2oVgUgV3xiQ=29.11.2024 16:16:2426.11.2024 13:47:43</TimeStamp>
+        <ID>
+          <String>JEDNOSTKA MIARY</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bcsfiC6xPljxmtHDtQCQNnHIRs8=29.11.2024 16:17:3926.11.2024 13:47:43</TimeStamp>
+        <ID>
+          <String>ZMIENNA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CJP0hit9iMFQuze+OI2C/ZZkrp0=29.11.2024 16:12:5326.11.2024 17:59:32AYsCexVivywMpeX6L4wfe4KaS+4=26.11.2024 17:59:3226.11.2024 17:59:32</TimeStamp>
+        <ID>
+          <String>Źródło danych- kostka</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>zuEhy8djNIaqcG5GyIMs/syGCMo=26.11.2024 13:56:1926.11.2024 12:52:27</TimeStamp>
+      <ID>
+        <String>Hurtowania_Danych_AD</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-29T15:18:19.88Z</LastDeployed>
+</DeploymentSnapshot>

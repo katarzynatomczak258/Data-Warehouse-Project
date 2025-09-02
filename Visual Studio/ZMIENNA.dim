@@ -1,0 +1,317 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fdd9bf74-693d-4d9d-878d-5304dce54b7d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ZMIENNA</ID>
+  <Name>ZMIENNA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3358" scrolltop="-5124" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ZMIENNA" left="-2785" top="-3634" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3193" height="4040" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000790c0000c80f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ZMIENNA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3358</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5124</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2785</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3634</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0d2b211e-1ced-4213-baeb-97506c98c3f8">
+    <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e5f14f36-f927-4f0a-9375-0bbf90863022">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="9b7ab6f6-ff97-4007-bcac-8a8f59140bfa">
+      <Language>1033</Language>
+      <Caption>VARIABLE</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="3c014de4-c1a6-47af-86c4-00322ebe9163">
+      <Language>3082</Language>
+      <Caption>VARIABLE</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="444e50ff-b14b-400b-8175-401c4c1df45a">
+      <Language>1045</Language>
+      <Caption>ZMIENNA</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="743ef70b-91e4-4c00-8d19-f3874368177b">
+      <ID>Id Zmienna Pk</ID>
+      <Name>Id Zmienna Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dede5890-7ceb-4e84-85e8-eb3f574a3adb">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cadecbf8-37c4-45dd-b335-72ff0af868b0">
+            <TableID>dbo_ZMIENNA</TableID>
+            <ColumnID>id_zmienna_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="c068c340-321e-4919-8838-da39eb1b52fb">
+          <Language>1033</Language>
+          <Caption>Id Variable Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="e72d6045-3e9c-4539-9bee-237cf1367068">
+          <Language>3082</Language>
+          <Caption>Id Variable Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="f53c45b0-f9a6-466c-888e-9843d97050f2">
+          <Language>1045</Language>
+          <Caption>Id Zmienna Pk</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9d3d43d8-b616-4509-906e-ab4cca054257">
+          <AttributeID>Nazwa Zmiennej</AttributeID>
+          <Name>Nazwa Zmiennej</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba970563-592f-4023-92e8-056dbd2c4aa7">
+          <AttributeID>Rodzaj Zmiennej</AttributeID>
+          <Name>Rodzaj Zmiennej</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="039a54c2-a025-4cf2-9ed4-d346f9db1e22">
+          <AttributeID>Opis</AttributeID>
+          <Name>Opis</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa193b23-e88b-49cf-ad6c-b02e8b02b6d8">
+      <ID>Nazwa Zmiennej</ID>
+      <Name>Nazwa Zmiennej</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9fbf8526-919e-4466-bbc2-f5e6b517c946">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="542a1a2c-83aa-42f8-b5f3-48d51219bf91">
+            <TableID>dbo_ZMIENNA</TableID>
+            <ColumnID>nazwa_zmiennej</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="3a2e9729-5edd-42b8-93ce-0c7e5ac63387">
+          <Language>1033</Language>
+          <Caption>Variable Name</Caption>
+          <CaptionColumn dwd:design-time-name="8a06b4c4-2b82-441c-9530-f275c87978a7">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e029e79-8de2-4e80-8d96-75c62dd407d5">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>nazwa_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="6a1968c1-a3aa-46ad-af3e-7d6f70f08cea">
+          <Language>3082</Language>
+          <Caption>Variable Nombre</Caption>
+          <CaptionColumn dwd:design-time-name="da9f998a-811b-48cd-9af0-73e806116828">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e8a26e0a-db4e-420d-8095-ce74eddd2d5a">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>nazwa_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="76d98c9c-8480-47ab-b1b3-5b8d39f0afa8">
+          <Language>1045</Language>
+          <Caption>Nazwa Zmiennej</Caption>
+          <CaptionColumn dwd:design-time-name="f55dca75-3f91-44c3-9d2d-8b84e3075447">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d49d2a7-f7a1-40c4-91dd-1025ce252206">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>nazwa_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <DefaultMember>[ZMIENNA].[Nazwa Zmiennej].&amp;[ruch graniczny]</DefaultMember>
+      <IsAggregatable>false</IsAggregatable>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3368cfc2-2d1e-4147-87ac-d554269920ea">
+      <ID>Rodzaj Zmiennej</ID>
+      <Name>Rodzaj Zmiennej</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3233f991-286a-41f3-83af-f58ca7cd61cf">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70a9cd81-71b8-49ff-b6cd-c23217d0395b">
+            <TableID>dbo_ZMIENNA</TableID>
+            <ColumnID>rodzaj_zmiennej</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="19816661-5690-4ade-9401-135b31c2a598">
+          <Language>1033</Language>
+          <Caption>Variable Type</Caption>
+          <CaptionColumn dwd:design-time-name="97972a8c-01fa-4164-95f4-909289abf70b">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ddf010bb-a9fd-47c8-af6a-e3a229a9cb00">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>rodzaj_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="2278b59b-646a-4b1c-90c5-8bdd62380e8a">
+          <Language>3082</Language>
+          <Caption>Variable Tipo</Caption>
+          <CaptionColumn dwd:design-time-name="e5e2458e-3e79-4508-bdad-47c9b95d4086">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1c3eda4-97b2-42c5-9afb-986f4136b400">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>rodzaj_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="326460dc-b2ff-49f5-a151-49b4cbd6b77a">
+          <Language>1045</Language>
+          <Caption>Rodzaj Zmiennej</Caption>
+          <CaptionColumn dwd:design-time-name="d2c7e47f-4712-4740-9a16-d3e8935f7356">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa1cf534-10c7-4e5a-9966-d3a9fe15e18d">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>rodzaj_zmiennej</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3c19cb01-458c-45a6-a76b-76a453f83ae0">
+      <ID>Opis</ID>
+      <Name>Opis</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e2f99f65-c46e-45b3-917c-6fa6df7d5f32">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2bc409bc-597b-4643-b899-f3d1e9f225b0">
+            <TableID>dbo_ZMIENNA</TableID>
+            <ColumnID>opis</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d6986c30-2e4b-44b9-a48b-19af961f9230">
+          <Language>1033</Language>
+          <Caption>Variable Description</Caption>
+          <CaptionColumn dwd:design-time-name="43c6ce33-171e-40b3-a346-118ed8bc71ea">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="109f6b3d-2fda-4189-91d7-45a13c2e753a">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>opis</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="1caab543-5e4d-49b6-b51a-339b2b9209cb">
+          <Language>3082</Language>
+          <Caption>Variable Description</Caption>
+          <CaptionColumn dwd:design-time-name="e1f2129f-2a53-4a58-9019-1ef7a35594e3">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f9ade3ab-c58d-459e-b9eb-cf26d7252db7">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>opis</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="091e8f08-7d2b-4f3b-8958-44a2c5298eb7">
+          <Language>1045</Language>
+          <Caption>Opis</Caption>
+          <CaptionColumn dwd:design-time-name="01ca078d-abbd-4b5c-8156-711e65debb64">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c03da68-07ac-4607-b6b1-187d61e85ad6">
+              <TableID>dbo_ZMIENNA</TableID>
+              <ColumnID>opis</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

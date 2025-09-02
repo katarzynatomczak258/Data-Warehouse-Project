@@ -1,0 +1,373 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b5ddf89e-d8ab-4d0c-9e6a-a3cb2291cffa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CZAS</ID>
+  <Name>CZAS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3437" scrolltop="-4771" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS" left="-2697" top="-1870" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3034" height="5574" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000da0b0000c6150000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CZAS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3437</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4771</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2697</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1870</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="160">
+            <Shape Id="Id Czas Pk" Expanded="true">
+              <Attributes>
+                <Attribute Id="Id Czas Pk" />
+                <Attribute Id="Kwartal" />
+                <Attribute Id="Kwartal Nazwa" />
+                <Attribute Id="Miesiac" />
+                <Attribute Id="Miesiac Nazwa" />
+                <Attribute Id="Rok" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b185ffb3-903f-4c1a-8ad4-d86766d826c5">
+    <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="ebcb3aa1-f28b-4b1d-8a83-adbafdf82e83">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="86626fb3-3e0e-4235-a99f-97ad867daeff">
+      <Language>3082</Language>
+      <Caption>TIEMPO</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="8e4c2cb2-70be-4d0f-8b9c-785fa991d1e8">
+      <Language>1033</Language>
+      <Caption>TIME</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="5739b3b7-3f4c-4641-84fc-fca79aebe52d">
+      <Language>1045</Language>
+      <Caption>CZAS</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="65c84131-862a-43cf-b279-d797b6fa43b5">
+      <ID>Id Czas Pk</ID>
+      <Name>Id Czas Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="775af15b-e2a6-4e2e-b472-2a78fd23812c">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="999f3121-eecf-407b-a73d-4d58ddaeecf8">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>id_czas_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="2a70f6ba-2afc-4165-85c4-d0ab3e60b3e0">
+          <Language>1033</Language>
+          <Caption>Id Time Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="57a7cb83-cc4a-49b2-b482-7b42e0bfd78c">
+          <Language>3082</Language>
+          <Caption>Id Tiempo Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="c04c812a-c5b3-4a2a-8611-39d313a07877">
+          <Language>1045</Language>
+          <Caption>Id Czas Pk</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="73a6bc30-e87b-429a-b2bc-5ea526bf46e3">
+          <AttributeID>Rok</AttributeID>
+          <Name>Rok</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2be104e-dfb4-4041-a216-a92b3ceeebb9">
+          <AttributeID>Kwartal</AttributeID>
+          <Name>Kwartal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1a6b69d4-5686-4f01-ba68-15758874966e">
+          <AttributeID>Kwartal Nazwa</AttributeID>
+          <Name>Kwartal Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="485e27ae-60fa-4902-b2e4-31fcf9757d72">
+          <AttributeID>Miesiac</AttributeID>
+          <Name>Miesiac</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8dd18a5-5f3c-40f4-aa33-b4a03f1e97ae">
+          <AttributeID>Miesiac Nazwa</AttributeID>
+          <Name>Miesiac Nazwa</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d78467c6-5883-4685-ad96-bbba6973eb55">
+      <ID>Rok</ID>
+      <Name>Rok</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6af1d9dc-f4ee-4337-9391-bf626dba8aca">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db5224af-8051-49d0-b13f-bd54e70da419">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>rok</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d2226954-24ba-46f8-a4b0-316907f3d09a">
+          <Language>3082</Language>
+          <Caption>Año</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="d1f6d668-da80-4e87-9a33-317e06d2948f">
+          <Language>1033</Language>
+          <Caption>Year</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="27068095-4e5f-4391-91a5-b7c8cffddfbd">
+          <Language>1045</Language>
+          <Caption>Rok</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2d2a6eff-19b4-4b8e-8c05-7c66ed5c695c">
+      <ID>Kwartal</ID>
+      <Name>Kwartal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b1b1aee4-bf95-4368-83c9-63fc8c6bb005">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b273de3-3846-4ec1-a470-e1d1ab81c70f">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>kwartal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ba976c89-3cad-4553-bd19-afcf6c5f97c4">
+          <Language>3082</Language>
+          <Caption>Trimestre</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="ec0cb7ad-228f-4aa2-aa8d-99091f183277">
+          <Language>1033</Language>
+          <Caption>Quarter</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="12c30e6c-2818-4890-bf53-608507ae0e09">
+          <Language>1045</Language>
+          <Caption>Kwartal</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4be8b35-57b6-4bc5-93bb-39959bf24cee">
+      <ID>Kwartal Nazwa</ID>
+      <Name>Kwartal Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="833b14c0-e463-4a67-baf0-fe0651c16dc9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f44e10c0-0568-44fa-a551-eced74845099">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>kwartal_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="762041ba-f10c-4c97-8766-c9e49073143d">
+          <Language>3082</Language>
+          <Caption>Trimestre Nombre</Caption>
+          <CaptionColumn dwd:design-time-name="512ad421-03e2-494e-a1ac-c5890c738d44">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f01bc022-b876-4841-9e94-7fae3a16c65d">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>kwartal_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="5fdb25a2-55bf-4d10-9ee7-0c3296bf0ec9">
+          <Language>1033</Language>
+          <Caption>Quarter Name</Caption>
+          <CaptionColumn dwd:design-time-name="c1fd20a2-472d-4037-823b-f58d5af7e218">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="565fdbb5-7e56-4095-a1f2-75f9414a9bb1">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>kwartal_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="8f1154c4-d9e4-46ef-b536-0f59851a3be9">
+          <Language>1045</Language>
+          <Caption>Kwartal Nazwa</Caption>
+          <CaptionColumn dwd:design-time-name="8fd1dabb-3504-49b5-a384-73bab351ad96">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f5d7d0a3-89a4-4e59-92fc-7c00c8ef1ca5">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>kwartal_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="62ade93c-2af1-4f0a-82a0-860e3fd472a3">
+      <ID>Miesiac</ID>
+      <Name>Miesiac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8389261a-1828-484d-a600-d84f481d7373">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d27dd61-79ed-4f04-8e7c-c92eb9eb4d5f">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>miesiac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ec5c1b20-7c87-4aa9-a972-7c0810a191df">
+          <Language>1033</Language>
+          <Caption>Month</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="64bf28d2-dc8f-4f1b-b68f-68a6a28eca6a">
+          <Language>3082</Language>
+          <Caption>Mes</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="313c7b88-a916-434e-83f0-f5aa3a4b14f7">
+          <Language>1045</Language>
+          <Caption>Miesiac</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0f0a1c35-2f15-4a30-b103-7e7bae00ec94">
+      <ID>Miesiac Nazwa</ID>
+      <Name>Miesiac Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c6b90788-dc06-4fcd-9383-d7c3bbbe1cb4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="abbc688d-bf86-4f52-ab5f-8f8219b73fd0">
+            <TableID>dbo_CZAS</TableID>
+            <ColumnID>miesiac_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="be21f60e-0bd9-4bc9-bc04-c2a0b4d4225b">
+          <Language>1033</Language>
+          <Caption>Month Name</Caption>
+          <CaptionColumn dwd:design-time-name="d5d390dd-75e1-4797-8e1c-8283a4d0890d">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="093e1894-7d05-40d6-8320-5374fd82fca0">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>miesiac_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="641a4644-38b1-42e3-81c8-6d82be6caee9">
+          <Language>3082</Language>
+          <Caption>Mes Nombre</Caption>
+          <CaptionColumn dwd:design-time-name="59f93cbf-0562-4360-bd34-491bc252efed">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d31f1e06-1e05-470c-b402-cfa29afa0222">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>miesiac_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="9e64bfe1-50e7-4e46-a431-8fda149fa46c">
+          <Language>1045</Language>
+          <Caption>Miesiac Nazwa</Caption>
+          <CaptionColumn dwd:design-time-name="ad38c0e1-7012-4fb8-8156-81930ebd1c62">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9a38b0a4-2aac-4822-ab5e-9fe150278b01">
+              <TableID>dbo_CZAS</TableID>
+              <ColumnID>miesiac_nazwa</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

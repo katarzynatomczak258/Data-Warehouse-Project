@@ -1,0 +1,350 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6e2ac7c6-cfd0-4949-8783-5b90579c5ae7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>JEDNOSTKA MIARY</ID>
+  <Name>JEDNOSTKA MIARY</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2802" scrolltop="-4948" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7232" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY" left="-1973" top="-2910" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4304" height="5045" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000b5130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2802</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4948</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1973</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2910</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="13bda686-c986-4bc2-8e94-a7fef0e980d4">
+    <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="f2d5a4c5-62c8-4822-90e4-9546e1af2e82">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="6d8bb8ee-e9a1-4c68-8486-d74799df26f6">
+      <Language>1033</Language>
+      <Caption>UNIT</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="fc79733f-3198-4326-933e-1d36f3e2c6a3">
+      <Language>3082</Language>
+      <Caption>UNIDAD</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="a716339d-00d5-4cc0-940f-ddd54794b6c2">
+      <Language>1045</Language>
+      <Caption>JEDNOSTKA MIARY</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="e6556501-1f9b-431a-abd3-ad896b2a48b1">
+      <ID>Id Jednostka Miary Pk</ID>
+      <Name>Id Jednostka Miary Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc8737c0-f65a-49cf-874d-eb1710617845">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14f43b11-b2f6-4ffe-9193-50b2778a4327">
+            <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+            <ColumnID>id_jednostka_miary_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="838d7224-c11d-4d23-9d51-694ec7c45c93">
+          <Language>1033</Language>
+          <Caption>Id Unit Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="51711407-627c-4f2c-b35e-6fd982017665">
+          <Language>3082</Language>
+          <Caption>Id Unidad Pk</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="f2d98bcf-b385-45b2-8703-ff3a05356c7d">
+          <Language>1045</Language>
+          <Caption>Id Jednostka Miary</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0af3de42-e922-4954-a3a8-d5700d55f4ee">
+          <AttributeID>Nazwa Jednostki Miary</AttributeID>
+          <Name>Nazwa Jednostki Miary</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="406a508e-ed4c-4314-90c0-2f593d85f3b0">
+          <AttributeID>Symbol Jednostki Miary</AttributeID>
+          <Name>Symbol Jednostki Miary</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d7e5918a-bef8-443a-aba6-bb142bd42b5e">
+          <AttributeID>Opis Jednostki Miary</AttributeID>
+          <Name>Opis Jednostki Miary</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="942327a5-e381-4423-b30d-d643597ae053">
+          <AttributeID>Mnoznik Jednostki Miary</AttributeID>
+          <Name>Mnoznik Jednostki Miary</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e415f98b-0519-4296-a6d7-0dc8eedf99e8">
+      <ID>Nazwa Jednostki Miary</ID>
+      <Name>Nazwa Jednostki Miary</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="69b10b75-2448-42e7-8c8a-c39b327993c0">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37d552d7-7fdf-4492-ac01-5a4b8fabea22">
+            <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+            <ColumnID>nazwa_jednostki_miary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="c0f6c096-f0a8-4482-b8fd-4a2a33e24017">
+          <Language>1033</Language>
+          <Caption>Unit Name</Caption>
+          <CaptionColumn dwd:design-time-name="d23e03ce-09ce-4e92-9982-af82bda6b91b">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68ea2d80-876a-46c2-a3ee-d24d62f7732d">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>nazwa_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="435c0f3c-248e-4122-94c7-b7bc38955e15">
+          <Language>3082</Language>
+          <Caption>Unidad Nombre</Caption>
+          <CaptionColumn dwd:design-time-name="0570e31d-47d4-4ec6-8a77-a7f8b0f853f9">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6584337c-5d19-44e4-b5ce-203d844b3d6b">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>nazwa_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="401c23a5-ee18-44cf-b444-ed00be4c7624">
+          <Language>1045</Language>
+          <Caption>Nazwa Jednostki Miary</Caption>
+          <CaptionColumn dwd:design-time-name="96925eb7-bf42-4068-bd67-5cc035cf8249">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d0f1ffff-d397-4540-a6eb-af39c1c6cc20">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>nazwa_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <DefaultMember>[JEDNOSTKA MIARY].[Nazwa Jednostki Miary].&amp;[sztuka]</DefaultMember>
+      <IsAggregatable>false</IsAggregatable>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c525ea82-d648-47f9-a214-55079639cb9a">
+      <ID>Symbol Jednostki Miary</ID>
+      <Name>Symbol Jednostki Miary</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="85e51c60-200a-4cb2-a43a-495ed2462c9b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78c68902-0f35-4793-afba-1a0ba6b3cf66">
+            <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+            <ColumnID>symbol_jednostki_miary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="e59178c0-e394-4bd8-ae68-d89aed9f3af2">
+          <Language>1033</Language>
+          <Caption>Unit Symbol</Caption>
+          <CaptionColumn dwd:design-time-name="1fbe4f0e-85bb-474f-951c-3fe2df8feb67">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14e396f4-1fdc-4ccc-adc8-4bbfae64ea74">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>symbol_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="ba13b93a-a2ab-4d9f-b779-ac203423456f">
+          <Language>3082</Language>
+          <Caption>Unidad Símbolo</Caption>
+          <CaptionColumn dwd:design-time-name="ec65314d-d5f9-4441-8b7b-b3a32cbd4b41">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5ac01891-24f7-44d9-80db-857740fd6dde">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>symbol_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="ed2e3242-b60e-4ca1-b300-7056391f2383">
+          <Language>1045</Language>
+          <Caption>Symbol Jednostki Miary</Caption>
+          <CaptionColumn dwd:design-time-name="31602d37-6da2-478f-9002-8b9cc008aa0b">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b6006fac-e991-492d-b5aa-263d8986e2f4">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>symbol_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f96f999f-e152-4b12-9f56-c1bb129ac460">
+      <ID>Opis Jednostki Miary</ID>
+      <Name>Opis Jednostki Miary</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e727f0e3-8326-49f8-97c2-3b8be943755f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e5b8b0f-4e0f-46b6-ba12-dd34aa1ccd14">
+            <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+            <ColumnID>opis_jednostki_miary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d2706e02-2584-4bfb-868c-0d3a8a8c41b8">
+          <Language>1033</Language>
+          <Caption>Unit Description</Caption>
+          <CaptionColumn dwd:design-time-name="2378744b-9bac-4c9f-863c-e22a0528009d">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3eea9e4-2455-4d2c-9500-e3dbc3606244">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>opis_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="80182a87-f546-42b5-86b1-ee1a1f93f410">
+          <Language>3082</Language>
+          <Caption>Unidad Descripción</Caption>
+          <CaptionColumn dwd:design-time-name="571a778c-28bf-4053-b021-a0794d139bbe">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_100_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="042ed279-e90f-4243-9c49-cd64ea049584">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>opis_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="e230063b-cad6-4e9f-ac1d-81c960d0bfec">
+          <Language>1045</Language>
+          <Caption>Opis Jednostki Miary</Caption>
+          <CaptionColumn dwd:design-time-name="df68f7a9-d415-4e77-8a0e-a62b277354c6">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Polish_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="521bad3d-a84e-4a34-b57b-fae8bf988663">
+              <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+              <ColumnID>opis_jednostki_miary</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="45cd7e1b-f5de-46dc-af4a-e00ea8889f04">
+      <ID>Mnoznik Jednostki Miary</ID>
+      <Name>Mnoznik Jednostki Miary</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c5d1210-a596-4840-b41d-558041349cf4">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42435454-fb88-4afa-a94c-3e9b75faf049">
+            <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+            <ColumnID>mnoznik_jednostki_miary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="33d57795-ee79-4638-85da-3aca7e40b40d">
+          <Language>1033</Language>
+          <Caption>Unit Multipler</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="1fc8ec6f-76ba-4a51-8c12-a1ab1d740f83">
+          <Language>3082</Language>
+          <Caption>Unidad Multiplicador</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="0a2636af-c39f-4dff-a996-67e2be9114ce">
+          <Language>1045</Language>
+          <Caption>Mnoznik Jednostki Miary</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Hurtownia_Danych_AD", "Hurtownia_Danych_AD.dwproj", "{4CA1A1FA-84BA-41C1-AF70-E97BAF5BA81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA1A1FA-84BA-41C1-AF70-E97BAF5BA81F}.Development|Default.ActiveCfg = Development
+		{4CA1A1FA-84BA-41C1-AF70-E97BAF5BA81F}.Development|Default.Build.0 = Development
+		{4CA1A1FA-84BA-41C1-AF70-E97BAF5BA81F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

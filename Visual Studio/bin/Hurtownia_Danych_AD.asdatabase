@@ -1,0 +1,2458 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtowania_Danych_AD</ID>
+  <Name>Hurtownia_Danych_AD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Dimensions>
+    <Dimension>
+      <ID>MIEJSCE</ID>
+      <Name>MIEJSCE</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3129" scrolltop="-5115" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="12471" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MIEJSCE" left="-2502" top="-4145" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="2240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000430e0000c0080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_MIEJSCE" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-3129</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-5115</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>-2502</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>-4145</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>1033</Language>
+          <Caption>LOCATION</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>UBICACIÓN</Caption>
+        </Translation>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>MIEJSCE</Caption>
+        </Translation>
+      </Translations>
+      <Attributes>
+        <Attribute>
+          <ID>Id Miejsce Pk</ID>
+          <Name>Id Miejsce Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_MIEJSCE</TableID>
+                <ColumnID>id_miejsce_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Id Ubicación Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Id Location Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Id Miejsce Pk</Caption>
+            </Translation>
+          </Translations>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Region</AttributeID>
+              <Name>Region</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Odcinek Granicy</AttributeID>
+              <Name>Odcinek Granicy</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Przejście Graniczne</AttributeID>
+              <Name>Przejście Graniczne</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Region</ID>
+          <Name>Region</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_MIEJSCE</TableID>
+                <ColumnID>region</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Region</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>region</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>región</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>region</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Region</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>region</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Odcinek Granicy</ID>
+          <Name>Odcinek Granicy</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_MIEJSCE</TableID>
+                <ColumnID>odcinek_granicy</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Border Section</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>odcinek_granicy</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Sección fronteriza</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>odcinek_granicy</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Odcinek Granicy</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>odcinek_granicy</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Przejście Graniczne</ID>
+          <Name>Przejście Graniczne</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_MIEJSCE</TableID>
+                <ColumnID>przejście_graniczne</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Border Crossing</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>przejście_graniczne</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Paso Fronterizo</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>przejście_graniczne</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Przejście Graniczne</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_MIEJSCE</TableID>
+                  <ColumnID>przejście_graniczne</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>CZAS</ID>
+      <Name>CZAS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3437" scrolltop="-4771" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS" left="-2697" top="-1870" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3034" height="5574" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000da0b0000c6150000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CZAS" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-3437</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-4771</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>-2697</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>-1870</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+          <Value>
+            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+              <Shapes NodeWidth="160">
+                <Shape Id="Id Czas Pk" Expanded="true">
+                  <Attributes>
+                    <Attribute Id="Id Czas Pk" />
+                    <Attribute Id="Kwartal" />
+                    <Attribute Id="Kwartal Nazwa" />
+                    <Attribute Id="Miesiac" />
+                    <Attribute Id="Miesiac Nazwa" />
+                    <Attribute Id="Rok" />
+                  </Attributes>
+                  <Position x="20" y="20" />
+                </Shape>
+              </Shapes>
+            </DiagramLayout>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>TIEMPO</Caption>
+        </Translation>
+        <Translation>
+          <Language>1033</Language>
+          <Caption>TIME</Caption>
+        </Translation>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>CZAS</Caption>
+        </Translation>
+      </Translations>
+      <Attributes>
+        <Attribute>
+          <ID>Id Czas Pk</ID>
+          <Name>Id Czas Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>id_czas_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Id Time Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Id Tiempo Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Id Czas Pk</Caption>
+            </Translation>
+          </Translations>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Rok</AttributeID>
+              <Name>Rok</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Kwartal</AttributeID>
+              <Name>Kwartal</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Kwartal Nazwa</AttributeID>
+              <Name>Kwartal Nazwa</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Miesiac</AttributeID>
+              <Name>Miesiac</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Miesiac Nazwa</AttributeID>
+              <Name>Miesiac Nazwa</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rok</ID>
+          <Name>Rok</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>rok</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Año</Caption>
+            </Translation>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Year</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Rok</Caption>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Kwartal</ID>
+          <Name>Kwartal</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>kwartal</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Trimestre</Caption>
+            </Translation>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Quarter</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Kwartal</Caption>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Kwartal Nazwa</ID>
+          <Name>Kwartal Nazwa</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>kwartal_nazwa</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Trimestre Nombre</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>kwartal_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Quarter Name</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>kwartal_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Kwartal Nazwa</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>kwartal_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Miesiac</ID>
+          <Name>Miesiac</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>miesiac</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Month</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Mes</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Miesiac</Caption>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Miesiac Nazwa</ID>
+          <Name>Miesiac Nazwa</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS</TableID>
+                <ColumnID>miesiac_nazwa</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Month Name</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>miesiac_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Mes Nombre</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>miesiac_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Miesiac Nazwa</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_CZAS</TableID>
+                  <ColumnID>miesiac_nazwa</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>JEDNOSTKA MIARY</ID>
+      <Name>JEDNOSTKA MIARY</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2802" scrolltop="-4948" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7232" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY" left="-1973" top="-2910" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4304" height="5045" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000b5130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2802</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-4948</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>-1973</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>-2910</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>1033</Language>
+          <Caption>UNIT</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>UNIDAD</Caption>
+        </Translation>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>JEDNOSTKA MIARY</Caption>
+        </Translation>
+      </Translations>
+      <Attributes>
+        <Attribute>
+          <ID>Id Jednostka Miary Pk</ID>
+          <Name>Id Jednostka Miary Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                <ColumnID>id_jednostka_miary_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Id Unit Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Id Unidad Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Id Jednostka Miary</Caption>
+            </Translation>
+          </Translations>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Nazwa Jednostki Miary</AttributeID>
+              <Name>Nazwa Jednostki Miary</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Symbol Jednostki Miary</AttributeID>
+              <Name>Symbol Jednostki Miary</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Opis Jednostki Miary</AttributeID>
+              <Name>Opis Jednostki Miary</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Mnoznik Jednostki Miary</AttributeID>
+              <Name>Mnoznik Jednostki Miary</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Nazwa Jednostki Miary</ID>
+          <Name>Nazwa Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                <ColumnID>nazwa_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Unit Name</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>nazwa_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Unidad Nombre</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>nazwa_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Nazwa Jednostki Miary</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>nazwa_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <DefaultMember>[JEDNOSTKA MIARY].[Nazwa Jednostki Miary].&amp;[sztuka]</DefaultMember>
+          <IsAggregatable>false</IsAggregatable>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Symbol Jednostki Miary</ID>
+          <Name>Symbol Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                <ColumnID>symbol_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Unit Symbol</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>symbol_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Unidad Símbolo</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>symbol_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Symbol Jednostki Miary</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>symbol_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Opis Jednostki Miary</ID>
+          <Name>Opis Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                <ColumnID>opis_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Unit Description</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>opis_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Unidad Descripción</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>opis_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Opis Jednostki Miary</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                  <ColumnID>opis_jednostki_miary</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Mnoznik Jednostki Miary</ID>
+          <Name>Mnoznik Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY</TableID>
+                <ColumnID>mnoznik_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Unit Multipler</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Unidad Multiplicador</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Mnoznik Jednostki Miary</Caption>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>ZMIENNA</ID>
+      <Name>ZMIENNA</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3358" scrolltop="-5124" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7355" y="7250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ZMIENNA" left="-2785" top="-3634" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3193" height="4040" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000790c0000c80f0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_ZMIENNA" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-3358</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-5124</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>-2785</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>-3634</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>1033</Language>
+          <Caption>VARIABLE</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>VARIABLE</Caption>
+        </Translation>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>ZMIENNA</Caption>
+        </Translation>
+      </Translations>
+      <Attributes>
+        <Attribute>
+          <ID>Id Zmienna Pk</ID>
+          <Name>Id Zmienna Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_ZMIENNA</TableID>
+                <ColumnID>id_zmienna_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Id Variable Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Id Variable Pk</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Id Zmienna Pk</Caption>
+            </Translation>
+          </Translations>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Nazwa Zmiennej</AttributeID>
+              <Name>Nazwa Zmiennej</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Rodzaj Zmiennej</AttributeID>
+              <Name>Rodzaj Zmiennej</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Opis</AttributeID>
+              <Name>Opis</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Nazwa Zmiennej</ID>
+          <Name>Nazwa Zmiennej</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_ZMIENNA</TableID>
+                <ColumnID>nazwa_zmiennej</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Variable Name</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>nazwa_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Variable Nombre</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>nazwa_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Nazwa Zmiennej</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>nazwa_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <DefaultMember>[ZMIENNA].[Nazwa Zmiennej].&amp;[ruch graniczny]</DefaultMember>
+          <IsAggregatable>false</IsAggregatable>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rodzaj Zmiennej</ID>
+          <Name>Rodzaj Zmiennej</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_ZMIENNA</TableID>
+                <ColumnID>rodzaj_zmiennej</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Variable Type</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>rodzaj_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Variable Tipo</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>rodzaj_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Rodzaj Zmiennej</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>rodzaj_zmiennej</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Opis</ID>
+          <Name>Opis</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_ZMIENNA</TableID>
+                <ColumnID>opis</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>Variable Description</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>opis</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Variable Description</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Latin1_General_100_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>opis</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Opis</Caption>
+              <CaptionColumn>
+                <DataType>WChar</DataType>
+                <DataSize>255</DataSize>
+                <Collation>Polish_CI_AS</Collation>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_ZMIENNA</TableID>
+                  <ColumnID>opis</ColumnID>
+                </Source>
+              </CaptionColumn>
+            </Translation>
+          </Translations>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+  </Dimensions>
+  <Cubes>
+    <Cube>
+      <ID>Źródło danych- kostka</ID>
+      <Name>Źródło danych- kostka</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4283" scrolltop="-704" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="19068" y="12488" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ZMIENNA" left="20" top="4816" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3193" height="2240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000790c0000c0080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_ZMIENNA" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MIEJSCE" left="5939" top="0" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3651" height="2240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000430e0000c0080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_MIEJSCE" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY" left="12317" top="4640" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4304" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000210a0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TFAKT" left="5613" top="4640" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="4304" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000210a0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_TFAKT" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS" left="6248" top="9633" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3034" height="2946" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000da0b0000820b0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CZAS" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2913" top="5537" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_ZMIENN__5629CD9C]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="3213" y="5936" />
+                  <point x="5613" y="5936" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7365" top="1741" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_MIEJSC__5535A963]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="7764" y="2240" />
+                  <point x="7764" y="3440" />
+                  <point x="7765" y="3440" />
+                  <point x="7765" y="4640" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9617" top="5537" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_JEDNOS__571DF1D5]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="12317" y="5936" />
+                  <point x="9917" y="5936" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7366" top="6933" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_CZAS__5441852A]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="7765" y="9633" />
+                  <point x="7765" y="7233" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-4283</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-704</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>86</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation>
+          <Language>1033</Language>
+          <Caption>Data source-cube</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fuente de datos-cubo</Caption>
+        </Translation>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>Źródło danych- kostka</Caption>
+        </Translation>
+      </Translations>
+      <Dimensions>
+        <Dimension>
+          <ID>ZMIENNA</ID>
+          <Name>ZMIENNA</Name>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>VARIABLE</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>VARIABLE</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>ZMIENNA</Caption>
+            </Translation>
+          </Translations>
+          <DimensionID>ZMIENNA</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Zmienna Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Nazwa Zmiennej</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rodzaj Zmiennej</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Opis</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>JEDNOSTKA MIARY</ID>
+          <Name>JEDNOSTKA MIARY</Name>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>UNIT</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>UNIDAD</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>JEDNOSTKA MIARY</Caption>
+            </Translation>
+          </Translations>
+          <DimensionID>JEDNOSTKA MIARY</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Jednostka Miary Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Nazwa Jednostki Miary</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Symbol Jednostki Miary</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Opis Jednostki Miary</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Mnoznik Jednostki Miary</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>CZAS</ID>
+          <Name>CZAS</Name>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>TIME</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>TIEMPO</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>CZAS</Caption>
+            </Translation>
+          </Translations>
+          <DimensionID>CZAS</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Czas Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rok</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Kwartal</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Kwartal Nazwa</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Miesiac</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Miesiac Nazwa</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>MIEJSCE</ID>
+          <Name>MIEJSCE</Name>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>LOCATION</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>UBICACIÓN</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>MIEJSCE</Caption>
+            </Translation>
+          </Translations>
+          <DimensionID>MIEJSCE</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Miejsce Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Region</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Odcinek Granicy</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Przejście Graniczne</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Perspectives>
+        <Perspective>
+          <ID>Perspective</ID>
+          <Name>P1</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>P1</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>P1</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>P1</Caption>
+            </Translation>
+          </Translations>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>JEDNOSTKA MIARY</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Jednostka Miary Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Symbol Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Opis Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Mnoznik Jednostki Miary</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>CZAS</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Czas Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac Nazwa</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>MIEJSCE</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Miejsce Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Region</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Odcinek Granicy</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Przejście Graniczne</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>TFAKT</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>WARTOSC</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>TFAKT Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+        <Perspective>
+          <ID>Perspective 1</ID>
+          <Name>P2</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>P2</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>P2</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>P2</Caption>
+            </Translation>
+          </Translations>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>ZMIENNA</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Zmienna Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa Zmiennej</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rodzaj Zmiennej</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Opis</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>JEDNOSTKA MIARY</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Jednostka Miary Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nazwa Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Symbol Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Opis Jednostki Miary</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Mnoznik Jednostki Miary</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>CZAS</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Czas Pk</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Rok</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Kwartal Nazwa</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Miesiac Nazwa</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>TFAKT</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>WARTOSC</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>TFAKT Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+      </Perspectives>
+      <MeasureGroups>
+        <MeasureGroup>
+          <ID>TFAKT</ID>
+          <Name>TFAKT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Translations>
+            <Translation>
+              <Language>1033</Language>
+              <Caption>TFACT</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>TFACT</Caption>
+            </Translation>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>TFAKT</Caption>
+            </Translation>
+          </Translations>
+          <Measures>
+            <Measure>
+              <ID>WARTOSC</ID>
+              <Name>WARTOSC</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_TFAKT</TableID>
+                  <ColumnID>WARTOSC</ColumnID>
+                </Source>
+              </Source>
+              <Translations>
+                <Translation>
+                  <Language>1033</Language>
+                  <Caption>VALUE</Caption>
+                </Translation>
+                <Translation>
+                  <Language>3082</Language>
+                  <Caption>VALOR</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>WARTOSC</Caption>
+                </Translation>
+              </Translations>
+            </Measure>
+            <Measure>
+              <ID>TFAKT Count</ID>
+              <Name>TFAKT Count</Name>
+              <AggregateFunction>Count</AggregateFunction>
+              <Source>
+                <DataType>Integer</DataType>
+                <DataSize>4</DataSize>
+                <Source xsi:type="RowBinding">
+                  <TableID>dbo_TFAKT</TableID>
+                </Source>
+              </Source>
+              <Translations>
+                <Translation>
+                  <Language>1033</Language>
+                  <Caption>TFACT Count</Caption>
+                </Translation>
+                <Translation>
+                  <Language>3082</Language>
+                  <Caption>TFACT Recuento</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>TFAKT Count</Caption>
+                </Translation>
+              </Translations>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>ZMIENNA</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Zmienna Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT</TableID>
+                        <ColumnID>ID_ZMIENNA</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>JEDNOSTKA MIARY</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Jednostka Miary Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT</TableID>
+                        <ColumnID>ID_JEDNOSTKA_MIARY</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>CZAS</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Czas Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT</TableID>
+                        <ColumnID>ID_CZAS</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>MIEJSCE</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Miejsce Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT</TableID>
+                        <ColumnID>ID_MIEJSCE</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>TFAKT</ID>
+              <Name>TFAKT</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+                <TableID>dbo_TFAKT</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Source>
+        <DataSourceViewID>Źródło danych- dane</DataSourceViewID>
+      </Source>
+    </Cube>
+  </Cubes>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>Źródło danych- połączenie</ID>
+      <Name>Źródło danych- połączenie</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLOLEDB.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=BazaOperacyjna_HD</ConnectionString>
+      <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+        <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>Źródło danych- dane</ID>
+      <Name>Źródło danych- dane</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout>
+                  <dds>
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5649" scrolltop="-705" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28240" y="13723" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                      <font>
+                        <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
+                      </font>
+                      <mouseicon>
+                        <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                      </mouseicon>
+                    </diagram>
+                    <layoutmanager>
+                      <ddsxmlobj />
+                    </layoutmanager>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS" left="20" top="4464" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3034" height="2946" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000da0b0000820b0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_CZAS" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY" left="12158" top="4640" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4304" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000210a0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="MIEJSCE" left="5780" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3651" height="2240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000430e0000c0080000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_MIEJSCE" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TFAKT" left="5454" top="4623" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4304" height="2593" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000d0100000210a0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_TFAKT" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ZMIENNA" left="6009" top="9633" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3193" height="2240" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e0000790c0000c0080000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_ZMIENNA" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7206" top="1741" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3182" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_MIEJSC__5535A963]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="7605" y="2240" />
+                        <point x="7605" y="3440" />
+                        <point x="7606" y="3440" />
+                        <point x="7606" y="4623" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2754" top="5538" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_CZAS__5441852A]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="3054" y="5937" />
+                        <point x="4254" y="5937" />
+                        <point x="4254" y="5919" />
+                        <point x="5454" y="5919" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9458" top="4437" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_JEDNOS__571DF1D5]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="12158" y="4836" />
+                        <point x="10932" y="4836" />
+                        <point x="10932" y="4819" />
+                        <point x="9758" y="4819" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7206" top="6916" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3217" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT__ID_ZMIENN__5629CD9C]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="7605" y="9633" />
+                        <point x="7605" y="8433" />
+                        <point x="7606" y="8433" />
+                        <point x="7606" y="7216" />
+                      </connector>
+                    </ddscontrol>
+                  </dds>
+                </DiagramLayout>
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>-5649</DiagramViewPortLeft>
+                <DiagramViewPortTop>-705</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>100</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>Źródło danych- połączenie</DataSourceID>
+      <Schema>
+        <xs:schema id="Źródło_x0020_danych-_x0020_dane" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="Źródło_x0020_danych-_x0020_dane" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a4c8ebe6-5543-4308-a2f5-b68d3e2b216e">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_CZAS" msprop:DbSchemaName="dbo" msprop:design-time-name="5f4e7952-0ef8-4ff4-b034-b3dbc7ef5314" msprop:FriendlyName="CZAS" msprop:TableType="Table" msprop:DbTableName="CZAS">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_czas_pk" msprop:FriendlyName="id_czas_pk" msprop:DbColumnName="id_czas_pk" msprop:design-time-name="594f028a-695b-4325-a79d-f2dd8e37bf96" type="xs:double" />
+                      <xs:element name="rok" msprop:FriendlyName="rok" msprop:DbColumnName="rok" msprop:design-time-name="5dbd4330-cc04-4569-b2d7-f829f0af9ac8" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal" msprop:FriendlyName="kwartal" msprop:DbColumnName="kwartal" msprop:design-time-name="283b2338-764f-4d09-81f5-9065cd0a89d1" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal_nazwa" msprop:FriendlyName="kwartal_nazwa" msprop:DbColumnName="kwartal_nazwa" msprop:design-time-name="4be7f4ae-627e-4761-9d7a-0cec83ebf879" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="miesiac" msprop:FriendlyName="miesiac" msprop:DbColumnName="miesiac" msprop:design-time-name="b631b583-9e23-4f87-9b6c-719eea9f8326" type="xs:double" minOccurs="0" />
+                      <xs:element name="miesiac_nazwa" msprop:FriendlyName="miesiac_nazwa" msprop:DbColumnName="miesiac_nazwa" msprop:design-time-name="0d76d7b2-1c38-4db3-9840-f5e5b70f991d" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_JEDNOSTKA_MIARY" msprop:DbSchemaName="dbo" msprop:design-time-name="e926dc0a-98a7-4b39-9ba0-f2138dab0542" msprop:FriendlyName="JEDNOSTKA_MIARY" msprop:TableType="Table" msprop:DbTableName="JEDNOSTKA_MIARY">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_jednostka_miary_pk" msprop:FriendlyName="id_jednostka_miary_pk" msprop:DbColumnName="id_jednostka_miary_pk" msprop:design-time-name="81e03fce-2d34-41da-96d1-140ada7ef13a" type="xs:double" />
+                      <xs:element name="nazwa_jednostki_miary" msprop:FriendlyName="nazwa_jednostki_miary" msprop:DbColumnName="nazwa_jednostki_miary" msprop:design-time-name="479dcf5f-f4c2-4dda-b13d-e6ef20fa6e15" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="symbol_jednostki_miary" msprop:FriendlyName="symbol_jednostki_miary" msprop:DbColumnName="symbol_jednostki_miary" msprop:design-time-name="d7add506-5c42-4d00-a944-88af220f7c1f" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="opis_jednostki_miary" msprop:FriendlyName="opis_jednostki_miary" msprop:DbColumnName="opis_jednostki_miary" msprop:design-time-name="0dcd76e6-997f-4003-8a6f-bc672bd238f7" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="mnoznik_jednostki_miary" msprop:FriendlyName="mnoznik_jednostki_miary" msprop:DbColumnName="mnoznik_jednostki_miary" msprop:design-time-name="26669b49-0014-41e9-bf64-b2f50082ff12" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_MIEJSCE" msprop:DbSchemaName="dbo" msprop:design-time-name="6c083355-677b-4c72-a160-ce2476476638" msprop:FriendlyName="MIEJSCE" msprop:TableType="Table" msprop:DbTableName="MIEJSCE">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_miejsce_pk" msprop:FriendlyName="id_miejsce_pk" msprop:DbColumnName="id_miejsce_pk" msprop:design-time-name="8d6d15a2-c808-4c9e-aec4-dc208911040e" type="xs:double" />
+                      <xs:element name="region" msprop:FriendlyName="region" msprop:DbColumnName="region" msprop:design-time-name="c5e27685-d0de-4743-a99d-271812bc9d44" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="odcinek_granicy" msprop:FriendlyName="odcinek_granicy" msprop:DbColumnName="odcinek_granicy" msprop:design-time-name="204bbbe8-6dde-45e6-ac77-0fe9f0a2ebfa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="przejście_graniczne" msprop:FriendlyName="przejście_graniczne" msprop:DbColumnName="przejście_graniczne" msprop:design-time-name="06660168-da88-44c2-8a0e-4c1e39068fbd" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_TFAKT" msprop:DbSchemaName="dbo" msprop:design-time-name="b5f2d667-dd3e-4556-ba84-292e2e83ad37" msprop:FriendlyName="TFAKT" msprop:TableType="Table" msprop:DbTableName="TFAKT">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="ID_CZAS" msprop:FriendlyName="ID_CZAS" msprop:DbColumnName="ID_CZAS" msprop:design-time-name="a19d3978-8518-4c11-bfae-6fb0fcad16b0" type="xs:double" minOccurs="0" />
+                      <xs:element name="ID_MIEJSCE" msprop:FriendlyName="ID_MIEJSCE" msprop:DbColumnName="ID_MIEJSCE" msprop:design-time-name="37d72b5f-0bf8-43d4-9d98-fb686e886fcb" type="xs:double" minOccurs="0" />
+                      <xs:element name="ID_ZMIENNA" msprop:FriendlyName="ID_ZMIENNA" msprop:DbColumnName="ID_ZMIENNA" msprop:design-time-name="9d35d77c-fd0b-4066-a31a-3ea2f3aa8b98" type="xs:double" minOccurs="0" />
+                      <xs:element name="ID_JEDNOSTKA_MIARY" msprop:FriendlyName="ID_JEDNOSTKA_MIARY" msprop:DbColumnName="ID_JEDNOSTKA_MIARY" msprop:design-time-name="e2fa77fa-a46e-4c03-a708-b14ed5dce74f" type="xs:double" minOccurs="0" />
+                      <xs:element name="WARTOSC" msprop:FriendlyName="WARTOSC" msprop:DbColumnName="WARTOSC" msprop:design-time-name="fffd33c0-4dd5-4210-80ce-2a517371618b" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_ZMIENNA" msprop:DbSchemaName="dbo" msprop:design-time-name="fc75a30d-9c2a-4a65-a56e-59b69f52f9fd" msprop:FriendlyName="ZMIENNA" msprop:TableType="Table" msprop:DbTableName="ZMIENNA">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_zmienna_pk" msprop:FriendlyName="id_zmienna_pk" msprop:DbColumnName="id_zmienna_pk" msprop:design-time-name="351648b3-4f80-4725-b365-afbc1d680435" type="xs:double" />
+                      <xs:element name="nazwa_zmiennej" msprop:FriendlyName="nazwa_zmiennej" msprop:DbColumnName="nazwa_zmiennej" msprop:design-time-name="87887c5e-f998-4e32-a367-7f9833ee48ce" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rodzaj_zmiennej" msprop:FriendlyName="rodzaj_zmiennej" msprop:DbColumnName="rodzaj_zmiennej" msprop:design-time-name="0c89d473-7455-4df0-9918-8d0b807b91ee" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="opis" msprop:FriendlyName="opis" msprop:DbColumnName="opis" msprop:design-time-name="619dc657-1a07-4a92-8641-e39ea07d4b7a" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+            <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_CZAS" />
+              <xs:field xpath="id_czas_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_JEDNOSTKA_MIARY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_JEDNOSTKA_MIARY" />
+              <xs:field xpath="id_jednostka_miary_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_MIEJSCE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_MIEJSCE" />
+              <xs:field xpath="id_miejsce_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_ZMIENNA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_ZMIENNA" />
+              <xs:field xpath="id_zmienna_pk" />
+            </xs:unique>
+            <xs:keyref name="FK__TFAKT__ID_MIEJSC__5535A963" refer="dbo_MIEJSCE_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT" />
+              <xs:field xpath="ID_MIEJSCE" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT__ID_CZAS__5441852A" refer="Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT" />
+              <xs:field xpath="ID_CZAS" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT__ID_JEDNOS__571DF1D5" refer="dbo_JEDNOSTKA_MIARY_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT" />
+              <xs:field xpath="ID_JEDNOSTKA_MIARY" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT__ID_ZMIENN__5629CD9C" refer="dbo_ZMIENNA_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT" />
+              <xs:field xpath="ID_ZMIENNA" />
+            </xs:keyref>
+          </xs:element>
+        </xs:schema>
+        <Źródło_x0020_danych-_x0020_dane xmlns="" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>
